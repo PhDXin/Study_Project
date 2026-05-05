@@ -1,0 +1,5 @@
+s1=input("Give me a sequence")
+s2=input("Give me another sequence")
+s1=list(s1)
+s2=list(s2)
+lgth=len(s2)

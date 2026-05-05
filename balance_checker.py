@@ -1,0 +1,14 @@
+def balance(num:int):
+    odd=0
+    even=0
+    while num != 0:
+        if (num % 10)//2 ==0:
+            even +=1
+        else:
+            odd+=1
+        num = num //10
+    return odd==even
+print(balance(122))
+
+
+
