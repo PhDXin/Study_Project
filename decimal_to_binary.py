@@ -8,6 +8,6 @@ def converter(decimal):
     else:
         intermid="0"
     
-    return intermid+converter(decimal//2)
+    return converter(decimal//2)+intermid
 print(converter(decimal))
         
